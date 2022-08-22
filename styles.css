@@ -1,16 +1,151 @@
 *{
 padding: 0%;
 margin: 0%;
-
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header{
- background-color:#9ABFC7;
+ background-color:#E0EEEE;
  display: flex;
+ justify-content: space-between;
+ padding: 15px;
+width: 99%;
+position: fixed;
+}
+
+.logo{
 }
 
 .secciones{
-display: flex;
 color: #59564F;
-flex-wrap: wrap;
+display: flex;
+justify-content: space-between;
+align-content: space-between;
+}
+
+.inputwhite{
+    display: inline;
+    border: white;
+}
+
+#inputwhite{
+    border: white;
+    width: 207px;
+    height: 27px;
+}
+
+#botonbusqueda{
+    background-color: #3D6177;
+    border-color: #3D6177;
+    color: white;
+    width: 200px;
+    height: 72px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text{
+    margin: black;
+    border-radius: 28px;
+    width: 560px;
+    height: 104px;
+    border: 1px solid #E0EEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionone{
+    align-items: center;
+}
+
+#marcas{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputinput{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.slogan{
+    width: 890px;
+    height: 132px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+.slogan-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textoraro{
+    text-align: center;
+    color: #414D4D;
+}
+
+.sectiontwo{
+    background-color: #C5DDDD;
+    padding: 50px;
+}
+
+#segundotexto{
+    font-size: 36px;
+    color: #414D4D;
+}
+
+.sections{
+    width: 300px;
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seccionita{
+    padding: 18px;
+    font-size: 12px;
+}
+
+.twoflex{
+    display: flex;
+    justify-content: center;
+}
+#nombreraro{
+    font-size: 18px;
+    color: #414D4D;
+}
+#agregadoraro{
+    font-size: 14px;
+    color: #414D4D;
+}
+.frase{
+    display: block;
+}
+#piefrase{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+#titulosectionthree{
+    font-size: 24px;
+    color: #414D4D;
+}
+#textosectionthree{
+    font-size: 16px;
+    color: #414D4D;
 }
