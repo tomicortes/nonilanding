@@ -1,7 +1,7 @@
 *{
 padding: 0%;
 margin: 0%;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: "Rubik";
 }
 
 .header{
@@ -11,18 +11,24 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
  padding: 15px;
 width: 99%;
 position: fixed;
+height: 60px;
+align-items: center;
 }
 
 .logo{
+    margin-left: 80px;
+    align-items: center;
 }
 
 .secciones{
 color: #59564F;
 display: flex;
 justify-content: space-between;
-align-content: space-between;
+align-items: center;
 }
-
+.redes{
+    margin-right: 80px;
+}
 .inputwhite{
     display: inline;
     border: white;
@@ -96,6 +102,8 @@ align-content: space-between;
 #textoraro{
     text-align: center;
     color: #414D4D;
+    margin-top: 40px;
+    font-weight: 500;
 }
 
 .sectiontwo{
@@ -106,10 +114,11 @@ align-content: space-between;
 #segundotexto{
     font-size: 36px;
     color: #414D4D;
+    font-weight: 450;
 }
 
 .sections{
-    width: 300px;
+    width: 500px;
     height: 32px;
     display: flex;
     justify-content: space-around;
@@ -118,7 +127,7 @@ align-content: space-between;
 
 .seccionita{
     padding: 18px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .twoflex{
@@ -148,4 +157,9 @@ align-content: space-between;
 #textosectionthree{
     font-size: 16px;
     color: #414D4D;
+}
+.textodebajo{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
 }
