@@ -86,7 +86,7 @@ align-items: center;
 .slogan{
     width: 890px;
     height: 132px;
-    font-size: 36px;
+    font-size: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@ align-items: center;
     text-align: center;
     color: #414D4D;
     margin-top: 40px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .sectiontwo{
@@ -112,7 +112,7 @@ align-items: center;
 }
 
 #segundotexto{
-    font-size: 36px;
+    font-size: 34px;
     color: #414D4D;
     font-weight: 450;
 }
@@ -137,10 +137,16 @@ align-items: center;
 #nombreraro{
     font-size: 18px;
     color: #414D4D;
+    display: flex;
+    align-items: baseline;
+    margin-left: 20px;
 }
 #agregadoraro{
     font-size: 14px;
     color: #414D4D;
+    display: flex;
+    align-items: baseline;
+    margin-left: 20px;
 }
 .frase{
     display: block;
@@ -162,4 +168,32 @@ align-items: center;
     margin-top: 20px;
     text-align: center;
     display: block;
+}
+.finalinput a{
+    text-decoration: none;
+}
+.sectionthree{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+#imagensectionthree{
+    width: 300px;
+    height: 300px;
+}
+.textotextodos{
+    width: 500px;
+}
+#flecha{
+    display: inline-flex;
+}
+.menues{
+    display: flex;
+    justify-content: space-between;
+}
+.textotextodos>*{
+    margin-bottom: 20px;
+}
+.menues{
+    margin-bottom: 20px;
 }
