@@ -172,15 +172,15 @@ align-items: center;
 .finalinput a{
     text-decoration: none;
 }
-.sectionthree{
+.sectionthree .container{
     display: flex;
     /* flex-wrap: wrap; */
     padding: 60px 0;
     color: #566666;
 }
 #imagensectionthree{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 .imagensectionthree{
     display: flex;
