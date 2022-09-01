@@ -258,12 +258,15 @@ align-items: center;
 }
 .sectionfourimg{
     display: flex;
-    width: 250px;
+    justify-content: space-around;
 }
 .sectionfour{
     padding: 60px 0;
     color: #414D4D;
 }
-.containerfour{
-
+.sectionfourtext{
+    padding: 60px 0;
 }
+.sectionfourimgbox{
+    width: 300px;
+}    
