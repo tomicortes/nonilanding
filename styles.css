@@ -176,6 +176,7 @@ align-items: center;
     display: flex;
     /* flex-wrap: wrap; */
     padding: 60px 0;
+    color: #566666;
 }
 #imagensectionthree{
     width: 300px;
@@ -261,7 +262,8 @@ align-items: center;
 }
 .sectionfour{
     padding: 60px 0;
+    color: #414D4D;
 }
 .containerfour{
-    
+
 }
