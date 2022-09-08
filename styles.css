@@ -117,6 +117,7 @@ align-items: center;
 .sectiontwo{
     background-color: #C5DDDD;
     padding: 50px 0;
+    flex-wrap: wrap;
 }
 
 #segundotexto{
@@ -126,7 +127,7 @@ align-items: center;
 }
 
 .sections{
-    width: 500px;
+    /* width: 500px; */
     height: 32px;
     display: flex;
     justify-content: space-around;
@@ -186,7 +187,7 @@ align-items: center;
 }
 .sectionthree .container{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding: 60px 0;
     color: #566666;
     justify-content: center;
@@ -274,6 +275,7 @@ align-items: center;
 .sectionfourimg{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .sectionfour{
     padding: 60px 0;
